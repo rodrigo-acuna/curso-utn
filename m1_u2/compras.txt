@@ -3,3 +3,5 @@ leche
 huevos
 arroz
 fideos
+fruta
+verdura
