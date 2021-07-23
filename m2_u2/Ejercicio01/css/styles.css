@@ -1,0 +1,34 @@
+.container{
+  width: 450px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.caja{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.green{
+  background-color: green;
+}
+
+.text{
+  color: #fff;
+}
