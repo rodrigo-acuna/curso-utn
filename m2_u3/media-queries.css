@@ -1,0 +1,44 @@
+@media (max-width: 800px) {
+  * {
+    margin: 0;
+  }
+
+  #contenedor {
+    width: 100%;
+  }
+
+  h1 {
+    padding-bottom: 20px;
+  }
+
+  nav,
+  section,
+  aside {
+    float: none;
+    width: 100%;
+  }
+
+  nav {
+    background-color: #ffcc66;
+    float: none;
+    width: 100%;
+  }
+
+  li {
+    padding: 10px 0;
+  }
+
+  a {
+    color: #000;
+  }
+
+  section,
+  aside {
+    margin: 0;
+    padding: 30px 0 30px 10px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+}
