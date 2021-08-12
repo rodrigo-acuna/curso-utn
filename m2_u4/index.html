@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica con Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container-fluid bg-light">
+
+        <!-- Barra de navegación -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Menú Principal</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Servicio 1</a></li>
+                      <li><a class="dropdown-item" href="#">Servicio 2</a></li>
+                      <li><a class="dropdown-item" href="#">Servicio 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Ingrese búsqueda" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+        <h1 class="display-4 py-5">Contenido de la página</h1>
+
+        <!-- Contenido en columnas -->
+
+        <div class="row">
+            <div class="col-md-3 border">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi itaque libero fuga magni officia, fugit culpa aliquam quos, fugiat minus distinctio maiores neque. Sed consequatur quasi molestiae debitis laborum fugit.</div>
+            <div class="col-md-3 border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias iste sint neque nemo repellendus, excepturi ad porro inventore obcaecati asperiores libero nihil sunt quas consequatur possimus voluptate pariatur voluptates.
+            Similique veritatis repudiandae ipsam est soluta possimus voluptatem voluptatibus eaque maiores nam facilis deserunt, error ipsum consequuntur dolore expedita architecto non fugit laudantium ad. Omnis et culpa a odio quas!</div>
+            <div class="col-md-2 border">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui vero explicabo velit ipsum odit quaerat tenetur harum nostrum ipsam ut. Eos voluptatibus animi laborum labore nisi, illo ipsam provident delectus.</div>
+            <div class="col-md-2 border">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus unde dolorum fuga voluptatum quam quis, nihil harum delectus itaque autem nulla similique eos! Reiciendis eaque repellat fugiat suscipit officia omnis!
+            Odit ut exercitationem sapiente suscipit esse tempore iure nostrum consectetur inventore, obcaecati perspiciatis dolorem perferendis, accusamus explicabo ipsum adipisci rem totam magni modi omnis. Incidunt, quidem. Eos quis animi quam.</div>
+            <div class="col-md-2 border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vero modi, ab aliquam voluptatum dolorum voluptatibus dicta adipisci minus rem alias facere! Quibusdam, excepturi? Eaque ab ipsa nihil perspiciatis aspernatur.</div>
+        </div>
+
+        <!-- Carrousel de imágenes -->
+
+        <div class="row justify-content-center py-3">
+            <div class="col-xs-8 col-md-5 col-lg-4 col-xl-3">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://via.placeholder.com/150/#0000FF/808080" class="d-block w-100" alt="imagen 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://via.placeholder.com/150/#FF0000/FFFFFF" class="d-block w-100" alt="imagen 2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://via.placeholder.com/150/#FFFF00/000000" class="d-block w-100" alt="imagen 3">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulario de contacto -->
+
+        <div class="row justify-content-center">
+            <h2 class="display-6 text-center py-4">Formulario de contacto</h2>
+
+            <div class="col-xs-8 col-md-5 col-lg-4 col-xl-3">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Nombre</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">E-mail</label>
+                </div>
+                <div class="form-floating pb-5">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                    <label for="floatingTextarea2">Comentarios</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
