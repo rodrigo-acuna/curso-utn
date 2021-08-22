@@ -1,0 +1,135 @@
+@media(max-width: 1500px){
+    .header__logo--business{
+        font-size: 1rem;
+    }
+    
+    .header__logo--name{
+        font-size: 1.5rem;
+    }
+
+    .nabvar__item--link{
+        font-size: 1rem;
+    }
+
+    .third-section__card{
+        width: 25%;
+    }
+}
+
+
+@media(max-width: 1200px){
+    .main-header{
+        flex-direction: column;
+    }
+
+    .header__logo,
+    .header__main-menu{
+        width: 100%;
+        height: auto;
+    }
+
+    .header__social-media{
+        width: 50%;
+        margin: 0 auto 30px auto;
+    }
+
+    .second-section__images{
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-section__image-link{
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .third-section__card-container{
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .third-section__card{
+        width: 100%;
+        height: 180px;
+        margin-bottom: 30px;
+    }
+
+    .main-header{
+        height: 300px;
+    }
+
+    .main-section{
+        padding-top: 320px;
+    }
+}
+
+
+@media(max-width: 960px){
+    .third-section__card{
+        height: 250px;
+    }
+
+    .fourth-section__card{
+        height: auto;
+    }
+
+    .fifth-section__container{
+        display: none;
+    }
+
+    .main-section__card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-card{
+        width: 100%;
+    }
+
+    .footer{
+        height: auto;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container__left{
+        width: 50%;
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .footer-container__center{
+        width: 70%;
+    }
+
+    .footer-container__right{
+        width: 50%;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 620px){
+    .navbar__item{
+        margin: 10px 10px;
+    }
+
+    .nabvar__item--link{
+        font-size: 0.9rem;
+    }
+
+    .second-section__image-link{
+        width: 50%;
+    }
+
+    .third-section__card{
+        height: 300px;
+    }
+}

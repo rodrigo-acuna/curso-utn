@@ -1,0 +1,433 @@
+.container{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ============================================================================
+ Estilos de la primera sección 
+ ============================================================================== */
+
+.header__container{
+    background-image: url(../img/madryn_aerea.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header__container::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+}
+
+/* ============================================================================ 
+Estilos del encabezado 
+=============================================================================== */
+
+.main-header{
+    width: 100%;
+    height: 18%;
+    position: absolute;
+    display: flex;
+}
+
+/* ============================================================================
+Estilos del logo 
+=============================================================================== */
+
+.header__logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo--business, .header__logo--name{
+    color: #fff;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.header__logo--business{
+    font-size: 1.5rem;
+}
+
+.header__logo--name{
+    font-size: 2rem;
+}
+
+/* ============================================================================
+Estilos de la barra de navegación 
+=============================================================================== */
+
+.header__main-menu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__list{
+    list-style-type: none;
+}
+
+.navbar__item{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.nabvar__item--link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+}
+
+.nabvar__item--link:hover{
+    color: #6495ed;
+    border-bottom: 2px solid #6495ed;
+    transition: all 300ms;
+} 
+
+.navbar__item--active{
+    border-bottom: 2px solid #fff;
+}
+
+/* ============================================================================
+Estilos de barra de redes sociales 
+=============================================================================== */
+
+.header__social-media{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__social-media--item{
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+/* ============================================================================
+Estilos de datos de contacto 
+=============================================================================== */
+
+.contact-info{
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info__data{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+.contact-info__icon{
+    padding: 0 1em;
+}
+
+.contact-info__link-button{
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 20px 30px;
+    background-color: #6495ed;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 30px;
+}
+
+.contact-info__link-button:hover{
+    background-color: #fff;
+    color: #6495ed;
+    font-weight: 700;
+    transition: all 500ms;
+}
+
+/* ============================================================================
+Estilos de la segunda sección 
+=============================================================================== */
+
+.second-section__container{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fafafa;
+}
+
+.second-section__paragraph{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+    color: #666;
+}
+
+.second-section__images{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section__image-link{
+    width: 30%;
+}
+
+.second-section__image-link:hover{
+    box-shadow: 5px 5px 20px #555;
+    transition: all 500ms;
+}
+
+.second-section__image{
+    width: 100%;
+    height: 100%;
+}
+
+/* ============================================================================
+Estilos de la tercera sección 
+=============================================================================== */
+
+.third-section__container{
+    width: 100%;
+}
+
+.third-section__card-container{
+    width: 70%;
+    padding: 80px 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-section__card{
+    width: 20%;
+    height: 350px;
+    border: 1px solid #555;
+    box-shadow: 3px 3px 10px #aaa;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title{
+    height: 25%;
+    font-size: 2rem;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__text{
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+}
+
+/* ============================================================================
+Estilos de la cuarta sección
+=============================================================================== */
+
+.fourth-section__container{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fafafa;
+}
+
+.fourth-section__card-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-section__card{
+    width: 100%;
+    height: 200px;
+    border: 5px solid #006fba;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.card-logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image{
+    width: 50%;
+}
+
+.card-description__title{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #006fba;
+}
+
+.card-description__text{
+    font-size: 1.1rem;
+    color: #006fba;
+}
+
+/* ============================================================================
+Estilos de la quinta sección
+=============================================================================== */
+
+.fifth-section__container{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/sala_reunion_1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.fifth-section__box{
+    width: 650px;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    background-color: #006fba;
+}
+
+.box__title{
+    font-size: 3rem;
+    padding: 30px 100px 0 100px;
+    color: #fafafa;
+}
+
+.box__text{
+    font-size: 1.5rem;
+    padding: 0 100px 100px 100px;
+    color: #aaa;
+}
+
+.box__button{
+    margin-left: 100px;
+    background-color: #222;
+    color: #fafafa;
+}
+
+.box__button:hover{
+    background-color: #fafafa;
+    color: #222;
+}
+
+/* ============================================================================
+Estilos del footer
+=============================================================================== */
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #333;
+}
+
+.footer-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container__left{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.footer-container__left--title{
+    margin: 80px 0 50px 0;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    color: #fafafa;
+}
+
+.footer__social-media--link{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.footer__social-media--item{
+    font-size: 1.8rem;
+    padding: 15px;
+}
+
+.footer__social-media--name{
+    font-size: 1.8rem;
+    padding-left: 10px;
+}
+
+
+.footer-container__center{
+    width: 30%;
+    padding-top: 60px;
+}
+
+.footer-container__center--text{
+    padding: 5px 30px;
+    color: #fafafa;
+}
+
+.footer-container__center--icon{
+    margin-right: 10px;
+}
+
+.footer-container__right{
+    width: 30%;
+    padding-left: 30px;
+}
+
+.footer-container__right--title{
+    margin: 80px 0 40px 100px;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    color: #fafafa;
+}
+
+.footer-container__right--list{
+    margin-left: 75px;
+    list-style-type: none;
+}
+
+.footer-container__right--list-item{
+    padding: 10px 0
+}
+
+.footer-container__item--link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fafafa;
+}
+
+.footer__copyright{
+    width: 100%;
+}
+
+.footer__copyright--text{
+    padding: 40px 0 20px 0;
+    text-align: center;
+    color: #fafafa;
+}
