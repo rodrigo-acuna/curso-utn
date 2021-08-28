@@ -1,0 +1,18 @@
+.main-section{
+    width: 400px;
+    margin: 200px auto;
+}
+
+.link{
+    display: inline-block;
+    width: 100%;
+    background-color: #bc2036;
+    color: #fff;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px 30px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
