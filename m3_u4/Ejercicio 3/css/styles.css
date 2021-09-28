@@ -1,0 +1,16 @@
+.title{
+    margin-top: 50px;
+}
+
+.students,
+.students-title,
+.students-name,
+.students-value{
+    padding: 10px 15px;
+    border: 1px solid #222;
+    border-collapse: collapse;
+}
+
+.students-value{
+    text-align: center;
+}
