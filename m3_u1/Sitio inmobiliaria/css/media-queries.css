@@ -87,6 +87,33 @@
         width: 100%;
     }
 
+    .contact-section{
+        flex-direction: column;
+    }
+
+    .contact-section__info,
+    .contact-section__form{
+        width: 100%;
+    }
+
+    .contact-section__info{
+        padding: 40px;
+    }
+
+    .properties-section__container{
+        width: 300px;
+    }
+
+    .properties-card{
+        height: auto;
+    }
+
+    .card-image{
+        width: 100%;
+        clear: both;
+        margin-bottom: 20px;
+    }
+
     .footer{
         height: auto;
     }

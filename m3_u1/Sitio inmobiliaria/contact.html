@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/common_styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 </head>
 
 <body>
@@ -54,7 +56,35 @@
         ======================================================================= -->
 
         <main class="main-section">
-            <img src="img/sitio_en_construccion.jpg" alt="sitio en construcción" class="main-section__image">
+            <div class="contact-section">
+                <div class="contact-section__info">
+                    <div class="contact-section__container">
+                        <p class="footer-container__center--text"><i class="footer-container__center--icon fas fa-home"></i>Avda. Los Robles Norte 2311 - Puerto Madryn - Chubut - Patagonia Argentina</p>
+                        <p class="footer-container__center--text"><i class="footer-container__center--icon far fa-clock"></i>Lunes a Viernes de 9 a 12 y 16 a 19</p>
+                        <p class="footer-container__center--text"><i class="footer-container__center--icon fas fa-phone-alt"></i>0280-4567890</p>
+                        <p class="footer-container__center--text"><i class="footer-container__center--icon fas fa-envelope"></i>inmobiliaria@gmail.com</p>
+                    </div>
+                </div>
+    
+                <div class="contact-section__form">
+                    <div class="contact-form__container">
+                        <h2 class="contact-form__title">Envíanos un mensaje</h2>
+                        <form class="contact-form">
+                            <label for="name" class="contact-form__label">Nombre *</label>
+                            <input type="text" id="name" class="contact-form__input" required>
+                            <label for="telephone" class="contact-form__label">Teléfono / Celular</label>
+                            <input type="tel" id="telephone" class="contact-form__input">
+                            <label for="email" class="contact-form__label">E-mail *</label>
+                            <input type="email" id="email" class="contact-form__input" required>
+                            <label for="message" class="contact-form__label">Mensaje *</label>
+                            <textarea id="message" rows="4" class="contact-form__input contact-form__textarea" required></textarea>
+                            <input type="submit" value="Enviar mensaje" class="contact-form__button">
+                        </form>
+                        
+                    </div>
+    
+                </div>
+            </div>
         </main>
 
         <!-- ==================================================================

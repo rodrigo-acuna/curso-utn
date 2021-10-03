@@ -1,0 +1,22 @@
+.services__container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grey-text{
+    color: #444;
+}
+
+.services__title{
+    margin: 50px 0 20px 0;
+    font-size: 2.5rem;
+}
+
+.services__subtitle{
+    margin: 50px 0 30px 0;
+}
+
+.services__text:last-child{
+    padding-bottom: 50px;
+}

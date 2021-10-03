@@ -1,0 +1,58 @@
+.main-section{
+    background-color: #f8f8f8;
+}
+
+.properties-section__container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+}
+
+.properties-card{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-image{
+    width: 45%;
+    height: 200px;
+    position: relative;
+    float: left;
+}
+
+.card-image__picture{
+    height: 200px;
+}
+
+.card-image__text{
+    position: absolute;
+    padding: 3px 5px;
+    background-color: #ff9100;
+    color: #fff;
+}
+
+.card-text{
+    padding: 10px;
+}
+
+.card-text__price{
+    background-color: #6495ed;
+    color: #fff;
+    padding: 10px;
+}
+
+.card-text__address{
+    font-size: 1.5rem;
+    color: #888;
+}
+
+.card-text__description{
+    font-size: 0.9rem;
+    color: #888;
+}
